@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    API_KEY = os.getenv('fb753e1d6ee02a0614c4cd96acac38ee')
+    API_KEY = os.getenv('your_api_key_here')
     API_BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
     UPDATE_INTERVAL = 300  # 5 minutes in seconds
     CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad']
